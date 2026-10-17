@@ -1,3 +1,13 @@
+## Image registration and analysis in Python
+
+This is a development fork of [ANTsPy](https://github.com/ANTsX/ANTsPy), the Python interface to Advanced Normalization Tools. The upstream library brings image registration, segmentation, resampling, and NumPy interoperability into Python workflows, making it useful when aligning medical images or building analysis pipelines around spatial transforms.
+
+**Merged contribution:** [PR #924](https://github.com/ANTsX/ANTsPy/pull/924) adds HTTP status checks before downloaded test data enters the cache.
+
+Start with the [official documentation](https://antspy.readthedocs.io) and the installation and quickstart examples below. The published package is `antspyx`. Use the [branch comparison](https://github.com/ANTsX/ANTsPy/compare/main...jdotc1:main) to inspect this checkout's relationship to upstream.
+
+---
+
 # Advanced Normalization Tools in Python
 
 [![PyPI version](https://img.shields.io/pypi/v/antspyx)](https://pypi.org/project/antspyx/)
